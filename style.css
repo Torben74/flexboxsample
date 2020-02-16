@@ -1,0 +1,16 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div {
+    padding: 5px;
+}
+.container {
+    display: flex;
+    background-color: yellowgreen;
+}
+.box1 {
+    background-color: greenyellow;
+}
+.box2 {
+    background-color: yellow;
+}
