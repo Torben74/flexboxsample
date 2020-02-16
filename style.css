@@ -1,16 +1,19 @@
 html {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 div {
-    padding: 5px;
+  padding: 5px;
 }
 .container {
-    display: flex;
-    background-color: yellowgreen;
+  display: flex;
+  flex-direction: row;
+  background-color: yellowgreen;
 }
 .box1 {
-    background-color: greenyellow;
+  flex: 0 1 100%;
+  background-color: greenyellow;
 }
 .box2 {
-    background-color: yellow;
+  flex: 0 1 auto;
+  background-color: yellow;
 }
